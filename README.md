@@ -1,1 +1,1 @@
-# keey bot
+# keezy bot
