@@ -17,13 +17,10 @@ client.on('ready', (c) => {
 client.on('interactionCreate', (interaction) => {
   if (!interaction.isChatInputCommand()) return;
 
-  if (interaction.commandName === 'hey') {
-    return interaction.reply('hey!');
+  if (interaction.commandName === 'about') {
+    return interaction.reply("hey, i'm keezy bot. developed and maintained by keezy.");
   }
-
-  if (interaction.commandName === 'ping') {
-    return interaction.reply('Pong!');
-  }
+  
 });
 
 client.login(process.env.TOKEN);

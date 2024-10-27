@@ -3,12 +3,8 @@ const { REST, Routes } = require('discord.js');
 
 const commands = [
   {
-    name: 'hey',
-    description: 'Replies with hey!',
-  },
-  {
-    name: 'ping',
-    description: 'Pong!',
+    name: 'about',
+    description: 'Replies with dev info',
   },
 ];
 
